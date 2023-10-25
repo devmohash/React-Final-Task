@@ -1,0 +1,22 @@
+.moviecard {
+  min-height: 29rem;
+}
+/* .moviecard figure img{height: 15rem !important;width: 100%;} */
+.rating {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+}
+
+.viewdetails {
+  opacity: 0 !important;
+}
+.moviecard:hover .viewdetails {
+  opacity: 1 !important;
+  z-index: 3 !important;
+}
+.moviecard:hover {
+  opacity: 0.5;
+  transition: 0.7s ease;
+  cursor: pointer;
+}

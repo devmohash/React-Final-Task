@@ -1,0 +1,8 @@
+a {
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.nav:hover {
+  border-bottom: 2px solid red !important;
+}
